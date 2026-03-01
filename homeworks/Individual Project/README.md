@@ -13,7 +13,7 @@ Python 3.9+
 Anaconda (recommended) or pip  
 OpenAI API key  
 
-###Setup Environment
+### Setup Environment
 ```
 # Clone the repository
 git clone https://github.com/xuruoxuan086-dotcom/FTEC5660.git
