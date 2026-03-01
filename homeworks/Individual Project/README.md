@@ -7,13 +7,13 @@ This repository contains the code and data for reproducing the experiments on Ch
 <img width="777" height="222.8" alt="image" src="https://github.com/user-attachments/assets/232b2ecf-880f-4967-a5f8-8bc5b04d6dba" />
 
 
-🔧 Installation  
+###🔧 Installation  
 Prerequisites  
 Python 3.9+  
 Anaconda (recommended) or pip  
 OpenAI API key  
 
-Setup Environment
+###Setup Environment
 ```
 # Clone the repository
 git clone https://github.com/xuruoxuan086-dotcom/FTEC5660.git
@@ -26,7 +26,7 @@ conda activate wm
 # Install dependencies
 pip install openai numpy pandas scipy matplotlib seaborn jupyter
 ```
-📊 Dataset
+###📊 Dataset
 We created a dataset to test the working memory capacity of language models using the N-back task, which is widely used in cognitive science as a measure of working memory capacity.
 
 Dataset Structure  
@@ -99,7 +99,7 @@ verbal.ipynb - Baseline N-back tasks (n=1,2,3) at temperature=1.0
 verbal - low-temperature.ipynb - Experiments at temperature=0.2  
 verbal - high-temperature.ipynb - Experiments at temperature=1.5  
 
-📊 Metrics Calculation  
+###📊 Metrics Calculation  
 The following metrics are calculated for each experiment:  
 Metric	Definition  
 Hit Rate：Proportion of match trials correctly responded with "m"  
